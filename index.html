@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peer Tutoring</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: #e6f5ea;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .tutors {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background: #4CAF50;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    @media(max-width: 600px){
+      .hero h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Peer Tutoring Program</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#tutors">Tutors</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Learn & Grow Together</h1>
+    <p>Join our peer tutoring sessions to improve your skills and share knowledge.</p>
+    <a href="#contact" class="btn">Join Now</a>
+  </section>
+
+  <section id="about">
+    <h2>About Our Program</h2>
+    <p>Our peer tutoring program connects students with experienced peers who can help in various subjects. It's free, collaborative, and designed to help you succeed academically.</p>
+  </section>
+
+  <section id="tutors">
+    <h2>Meet Our Tutors</h2>
+    <div class="tutors">
+      <div class="card">
+        <img src="https://via.placeholder.com/80" alt="Tutor 1">
+        <h3>Raja Shekar Reddy</h3>
+        <p>Physics Expert</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/80" alt="Tutor 2">
+        <h3>Shanker Teegala</h3>
+        <p>Coding & Web Design</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/80" alt="Tutor 3">
+        <h3>Akshay Reddy</h3>
+        <p>English & Literature</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: rajashekarreddy2810@gmail.com</p>
+    <p>Phone: +91 8317524029</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Peer Tutoring Program. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
